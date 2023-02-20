@@ -6,12 +6,25 @@ p,
 li {
   font-family: sans-serif;
   color: #444;
+  margin: 20px;
 }
 h1,
 h2,
 h3 {
   color: #1098ad;
 }
+.main_header {
+  color: #f7f7f7;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
 h1 {
   font-size: 26px;
   text-transform: uppercase;
@@ -51,14 +64,7 @@ header p {
 .author_ul {
   list-style: none;
 }
-.main_header {
-  color: #f7f7f7;
-}
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
+
 /* .first_li {
   font-weight: bold;
 } */
